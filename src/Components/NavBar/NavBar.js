@@ -1,8 +1,10 @@
 import React from 'react'
 import '../NavBar/NavBar.css'
 import Background from '../Background/Background'
+import { Icon } from '../Icon/Icon'
 import codewarsLogo from '../../images/codewars-logo.png'
 import twitterLogo from '../../images/twitter-logo.png'
+import linkedinLogo from '../../images/linkedin-logo.png'
 
 const navbar = () => {
   return (
@@ -27,23 +29,32 @@ const navbar = () => {
         </li>
       </ul>
       <div className="logobox">
-        <a
-          className="logos"
-          href="https://www.codewars.com/users/Steven-Klavins"
-          target="_blank"
-        >
-          <img className="logos" src={codewarsLogo} alt="Code Wars Logo" />
-          Code Wars
-        </a>
+        <div>
+          <Icon
+            link={'https://www.linkedin.com/in/steven-klavins-90b02a199/'}
+            image={linkedinLogo}
+            description={'Linkedin logo'}
+            title={'Linkedin'}
+          ></Icon>
+        </div>
 
-        <a
-          className="logos"
-          href="https://twitter.com/KlavinsSteven"
-          target="_blank"
-        >
-          <img className="logos" src={twitterLogo} alt="Twitter Logo" />
-          Twitter
-        </a>
+        <div>
+          <Icon
+            link={'https://www.codewars.com/users/Steven-Klavins'}
+            image={codewarsLogo}
+            description={'Code Wars Logo'}
+            title={'Codewars'}
+          ></Icon>
+        </div>
+
+        <div>
+          <Icon
+            link={'https://twitter.com/KlavinsSteven'}
+            image={twitterLogo}
+            description={'Twitter Logo'}
+            title={'Twitter'}
+          ></Icon>
+        </div>
       </div>
       <div>
         <Background />
