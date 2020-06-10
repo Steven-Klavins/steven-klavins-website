@@ -7,6 +7,7 @@ import twitterLogo from '../../images/twitter-logo.png'
 import linkedinLogo from '../../images/linkedin-logo.png'
 import githublogo from '../../images/github-logo.png'
 import mediumlogo from '../../images/medium-logo.png'
+import cvlogo from '../../images/cv-logo.png'
 
 const navbar = () => {
   return (
@@ -31,6 +32,14 @@ const navbar = () => {
         </li>
       </ul>
       <div className="logobox">
+        <div>
+          <Icon
+            link={'https://github.com/Steven-Klavins/CV'}
+            image={cvlogo}
+            description={'CV Logo'}
+            title={'CV'}
+          ></Icon>
+        </div>
         <div>
           <Icon
             link={'https://github.com/Steven-Klavins'}
