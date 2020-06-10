@@ -26,8 +26,10 @@ const navbar = () => {
         </li>
       </ul>
       <div className="logobox">
-        <img className="logos" src={codewarsLogo} alt="Code Wars Logo" />
-        Code Wars
+        <a href="https://www.codewars.com/users/Steven-Klavins" target="_blank">
+          <img className="logos" src={codewarsLogo} alt="Code Wars Logo" />
+          Code Wars
+        </a>
       </div>
       <div>
         <Background />

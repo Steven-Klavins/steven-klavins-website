@@ -1,3 +1,7 @@
+* {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: 'main';
   src: url('../../fonts/Antapani-ExtraBold.otf');
@@ -41,6 +45,7 @@ li a:hover:not(.active) {
   display: block;
   margin: 0px auto 0px;
   text-align: center;
+  color: #45a29e;
 }
 
 .logobox {
@@ -49,4 +54,8 @@ li a:hover:not(.active) {
   padding-left: 10px;
   color: #45a29e;
   font-size: 12px;
+}
+
+a {
+  color: #45a29e;
 }
