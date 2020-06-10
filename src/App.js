@@ -11,6 +11,10 @@ class App extends React.Component {
         <div>
           <NavBar />
         </div>
+        <h1 className="nameTitle">Steven Klavins</h1>
+        <div className="footerNote">
+          Built and designed by Steven Klavins 2020
+        </div>
       </div>
     )
   }
