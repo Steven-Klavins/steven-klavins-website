@@ -5,6 +5,7 @@ import { Icon } from '../Icon/Icon'
 import codewarsLogo from '../../images/codewars-logo.png'
 import twitterLogo from '../../images/twitter-logo.png'
 import linkedinLogo from '../../images/linkedin-logo.png'
+import githublogo from '../../images/github-logo.png'
 
 const navbar = () => {
   return (
@@ -29,6 +30,14 @@ const navbar = () => {
         </li>
       </ul>
       <div className="logobox">
+        <div>
+          <Icon
+            link={'https://github.com/Steven-Klavins'}
+            image={githublogo}
+            description={'Github Logo'}
+            title={'Github'}
+          ></Icon>
+        </div>
         <div>
           <Icon
             link={'https://www.linkedin.com/in/steven-klavins-90b02a199/'}
