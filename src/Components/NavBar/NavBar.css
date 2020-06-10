@@ -46,6 +46,14 @@ li a:hover:not(.active) {
   margin: 0px auto 0px;
   text-align: center;
   color: #45a29e;
+  transition: transform 0.2s;
+}
+
+.logos:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #66fcf1;
 }
 
 .logobox {
@@ -54,6 +62,7 @@ li a:hover:not(.active) {
   padding-left: 10px;
   color: #45a29e;
   font-size: 12px;
+  padding-left: 14px;
 }
 
 a {
