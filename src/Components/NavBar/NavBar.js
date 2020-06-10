@@ -1,6 +1,7 @@
 import React from 'react'
 import '../NavBar/NavBar.css'
 import Background from '../Background/Background'
+import codewarsLogo from '../../images/codewars-logo.png'
 
 const navbar = () => {
   return (
@@ -24,7 +25,10 @@ const navbar = () => {
           <a href="#about">About</a>
         </li>
       </ul>
-
+      <div className="logobox">
+        <img className="logos" src={codewarsLogo} alt="Code Wars Logo" />
+        Code Wars
+      </div>
       <div>
         <Background />
       </div>

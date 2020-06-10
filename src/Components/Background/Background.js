@@ -7,7 +7,7 @@ const background = () => {
       params={{
         particles: {
           line_linked: {
-            distance: 200,
+            distance: 300,
             color: '#66fcf1',
             shadow: {
               enable: true,
