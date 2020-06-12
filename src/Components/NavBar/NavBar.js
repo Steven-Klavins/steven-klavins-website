@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../NavBar/NavBar.css'
 import Background from '../Background/Background'
 import { Icon } from '../Icon/Icon'
@@ -14,21 +15,19 @@ const navbar = () => {
     <div>
       <ul>
         <li>
-          <a class="active" href="#home">
-            Home
-          </a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#news">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <a href="#about">Skills</a>
+          <Link to="/skills">Skills</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
         </li>
       </ul>
       <div className="logobox">
