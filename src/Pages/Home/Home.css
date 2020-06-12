@@ -19,4 +19,22 @@
 
 h1 {
   font-size: 60px;
+  min-width: 460px;
+}
+
+h2 {
+  position: absolute;
+  top: 120px;
+  margin-left: 182px;
+  color: #66fcf1;
+}
+
+p {
+  position: absolute;
+  top: 180px;
+  font-style: italic;
+  margin-left: 182px;
+  color: #45a29e;
+  margin-right: 120px;
+  min-width: 300px;
 }
