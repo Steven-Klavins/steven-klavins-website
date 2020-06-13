@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'readingfont';
+  src: url('../../fonts/GemunuLibre-Regular.otf');
+}
+
 .footerNote {
   position: absolute;
   bottom: 12px;
@@ -30,11 +35,17 @@ h2 {
 }
 
 p {
+  font-family: 'readingfont';
   position: absolute;
   top: 180px;
-  font-style: italic;
-  margin-left: 182px;
+  margin-left: 170px;
   color: #c5c6c7;
   margin-right: 120px;
-  min-width: 300px;
+  min-width: 420px;
+  max-width: 660px;
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 22px;
+  line-height: 30px;
 }
