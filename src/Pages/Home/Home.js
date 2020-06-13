@@ -13,6 +13,9 @@ const Home = () => {
           learn. I'll just cut to the chase, tech is basically my life. The
           endless growth and potential tech has to make the world a better place
           is what gets me out of bed in the morning.
+          <br />
+          <br />
+          Have any questions at all feel free to get in touch!
         </p>
       </div>
       <div className="footerNote">
