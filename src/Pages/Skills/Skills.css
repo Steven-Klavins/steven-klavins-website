@@ -20,3 +20,17 @@
 h1 {
   font-size: 60px;
 }
+
+h2 {
+  position: absolute;
+  top: 120px;
+  margin-left: 182px;
+  color: #c5c6c7;
+  text-align: center;
+}
+
+.languagesblock {
+  position: absolute;
+  top: 180px;
+  margin-left: 180px;
+}
