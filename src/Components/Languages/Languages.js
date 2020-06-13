@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Languages/Languages.css'
-import { render } from '@testing-library/react'
 
 export class Languages extends React.Component {
   render() {
