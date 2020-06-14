@@ -7,4 +7,4 @@ This repo holds the code for my personal portfolio website, it is built with a c
 
 I have yet to deploy this site however when its up a link will be provided.
 
-![](/README Screenshot.png)
+![](/README_Screenshot.png)
