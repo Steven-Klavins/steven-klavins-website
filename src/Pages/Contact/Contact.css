@@ -1,10 +1,10 @@
 .footerNote {
   position: absolute;
-  bottom: 12px;
+  bottom: 18px;
   margin-left: 43%;
-  min-width: 300px;
+  min-width: 450px;
   color: #45a29e;
-  font-size: 12px;
+  font-size: 18px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -13,10 +13,10 @@
 .nameTitle {
   position: absolute;
   top: 0px;
-  margin-left: 180px;
+  margin-left: 240px;
   color: #66fcf1;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 90px;
 }
