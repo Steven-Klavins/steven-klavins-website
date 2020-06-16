@@ -28,3 +28,10 @@ h1 {
   margin-left: 180px;
   border: 1px solid #66fcf1;
 }
+
+.aboutTextbox {
+  margin-left: 258px;
+  margin-top: 56px;
+  position: absolute;
+  top: 3px;
+}
