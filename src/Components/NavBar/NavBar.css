@@ -40,3 +40,13 @@ li a.active {
 li a:hover:not(.active) {
   color: #66fcf1;
 }
+
+.mlogo {
+  z-index: -2;
+  position: absolute;
+  top: 210px;
+  height: 600px;
+  margin-left: 38%;
+  align-items: center;
+  opacity: 0.1;
+}
