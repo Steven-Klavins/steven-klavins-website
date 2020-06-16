@@ -1,10 +1,10 @@
 .footerNote {
   position: absolute;
-  bottom: 12px;
+  bottom: 18px;
   margin-left: 43%;
-  min-width: 300px;
+  min-width: 450px;
   color: #45a29e;
-  font-size: 12px;
+  font-size: 18px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -13,25 +13,25 @@
 .nameTitle {
   position: absolute;
   top: 0px;
-  margin-left: 180px;
+  margin-left: 240px;
   color: #66fcf1;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 90px;
 }
 
 .aboutimg {
-  max-height: 300px;
+  max-height: 450px;
   position: absolute;
-  top: 120px;
-  margin-left: 180px;
+  top: 210px;
+  margin-left: 240px;
   border: 1px solid #66fcf1;
 }
 
 .aboutTextbox {
-  margin-left: 258px;
-  margin-top: 56px;
+  margin-left: 360px;
+  margin-top: 97px;
   position: absolute;
-  top: 3px;
+  top: 6px;
 }
