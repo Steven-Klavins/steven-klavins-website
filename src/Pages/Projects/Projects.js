@@ -11,10 +11,10 @@ const Projects = () => {
         initial={{ opacity: 0 }}
       >
         <h1 className="nameTitle">Projects</h1>
-        <div className="footerNote">
-          Built and designed by Steven Klavins 2020
-        </div>
       </motion.div>
+      <div className="footerNote">
+        Built and designed by Steven Klavins 2020
+      </div>
     </div>
   )
 }
