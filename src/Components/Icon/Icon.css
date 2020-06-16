@@ -1,11 +1,11 @@
 .logos {
-  width: 36px;
+  width: 54px;
   display: block;
   margin: 0px auto 0px;
   text-align: center;
   color: #45a29e;
   transition: transform 0.2s;
-  padding-bottom: 6px;
+  padding-bottom: 9px;
 }
 
 .logos:hover {
@@ -17,13 +17,13 @@
 
 .logobox {
   position: absolute;
-  top: 264px;
-  bottom: 10px;
-  padding-left: 10px;
+  top: 396px;
+  bottom: 15px;
+  padding-left: 15px;
   color: #45a29e;
-  font-size: 12px;
-  padding-left: 14px;
-  padding-bottom: 24px;
+  font-size: 18px;
+  padding-left: 21px;
+  padding-bottom: 36px;
 }
 
 a {
