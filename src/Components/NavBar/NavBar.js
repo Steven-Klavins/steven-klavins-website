@@ -9,6 +9,7 @@ import linkedinLogo from '../../images/linkedin-logo.png'
 import githublogo from '../../images/github-logo.png'
 import mediumlogo from '../../images/medium-logo.png'
 import cvlogo from '../../images/cv-logo.png'
+import mainlogo from '../../images/main-logo.png'
 
 const navbar = () => {
   return (
@@ -87,6 +88,9 @@ const navbar = () => {
       </div>
       <div>
         <Background />
+      </div>
+      <div>
+        <img className="mlogo" src={mainlogo} alt="logo" />
       </div>
     </div>
   )
