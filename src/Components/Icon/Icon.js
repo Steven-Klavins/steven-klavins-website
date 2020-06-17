@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Icon/Icon.css'
-import { render } from '@testing-library/react'
 
 export class Icon extends React.Component {
   render() {
