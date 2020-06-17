@@ -14,6 +14,7 @@ const Projects = () => {
         <h1 className="nameTitle">Projects</h1>
         <ProjectsTable />
       </motion.div>
+
       <div className="footerNote">
         Built and designed by Steven Klavins 2020
       </div>
