@@ -1,6 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import { AnimatePresence, motion } from 'framer-motion'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { AnimatePresence } from 'framer-motion'
 import NavBar from './Components/NavBar/NavBar'
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
