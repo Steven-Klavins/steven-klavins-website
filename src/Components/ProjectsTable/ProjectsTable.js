@@ -1,21 +1,10 @@
-import ApolloClient, { from } from 'apollo-boost'
-import { ApolloProvider } from 'react-apollo'
 import React from 'react'
 import '../ProjectsTable/ProjectsTable.css'
 import gql from 'graphql-tag'
 import { Query } from 'react-apollo'
+import { from } from 'apollo-boost'
 
-const client = new ApolloClient({
-  uri: 'https://api.github.com/graphql',
-  request: async (operation) => {
-    operation.setContext({
-      headers: {
-        authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}`,
-      },
-    })
-  },
-})
-const REPOSITORIES = gql`
+const REPOS = gql`
   {
     user(login: "Steven-Klavins") {
       pinnedItems(last: 5, types: [REPOSITORY, GIST]) {
@@ -39,15 +28,13 @@ const REPOSITORIES = gql`
 
 const ProjectsTable = () => {
   return (
-    <ApolloProvider client={client}>
-      <div>
-        <Query query={REPOSITORIES} variables={{}}>
-          {({ data, loading }) =>
-            loading ? <span>Loading data ...</span> : <div> Loaded!</div>
-          }
-        </Query>
-      </div>
-    </ApolloProvider>
+    <div className='projectsTable'>
+      <Query query={REPOS} variables={{}}>
+        {({ data, loading, error }) => (
+          error ? <span>Error Loading Github data</span> : <div>{data}</div>
+        )}
+      </Query>
+    </div>
   )
 }
 
