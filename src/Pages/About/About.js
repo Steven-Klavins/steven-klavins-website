@@ -17,7 +17,7 @@ function About() {
             Hello and thankyou for visiting my site!
           </p>
         </div>
-        <img className="aboutimg" src={aboutPhoto}></img>
+        <img className="aboutimg" src={aboutPhoto} alt="About"></img>
       </motion.div>
       <div className="footerNote">
         Built and designed by Steven Klavins 2020
