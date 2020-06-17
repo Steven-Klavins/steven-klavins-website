@@ -19,7 +19,7 @@ At present my website is not optimized for mobile use, however this is something
 
 **API**
 
-**Tech Stack*
+**Tech Stack**
 
 **Deployment** 
 
