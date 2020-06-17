@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Projects/Projects.css'
 import { motion } from 'framer-motion'
+import ProjectsTable from '../../Components/ProjectsTable/ProjectsTable'
 
 const Projects = () => {
   return (
@@ -11,6 +12,7 @@ const Projects = () => {
         initial={{ opacity: 0 }}
       >
         <h1 className="nameTitle">Projects</h1>
+        <ProjectsTable />
       </motion.div>
       <div className="footerNote">
         Built and designed by Steven Klavins 2020
