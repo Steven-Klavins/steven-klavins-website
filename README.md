@@ -13,3 +13,14 @@ I have yet to deploy this site however when its up a link will be provided.
 At present my website is not optimized for mobile use, however this is something I intend to do in the near future.
 
 ![](/README_Screenshot.png)
+
+
+**Animation**
+
+**API**
+
+**Tech Stack*
+
+**Deployment** 
+
+**Navigation** 
