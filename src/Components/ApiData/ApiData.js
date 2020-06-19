@@ -23,7 +23,7 @@ function ApiData() {
       <ul className="ul2">
         <div className="repoBox">
           {repos.map((repos) => (
-            <li key={repos.id}>
+            <li className="listFloat" key={repos.id}>
               <Repo
                 link={repos.html_url}
                 name={repos.name}
