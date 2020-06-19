@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import '../ApiData/ApiData.css'
 
 function ApiData() {
   const [repos, setRepos] = useState([])
@@ -18,10 +19,15 @@ function ApiData() {
 
   return (
     <div>
-      <ul>
-        {repos.map((repos) => (
-          <li key={repos.id}>{repos.name}</li>
-        ))}
+      <ul className="ul2">
+        <div className="repoBox">
+          {repos.map((repos) => (
+            <li key={repos.id}>
+              {repos.name}
+              {repos.html_url}
+            </li>
+          ))}
+        </div>
       </ul>
     </div>
   )
