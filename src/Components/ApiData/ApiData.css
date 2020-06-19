@@ -1,16 +1,18 @@
 .repoBox {
   font-family: 'readingfont';
-  position: absolute;
   top: 0px;
   color: #c5c6c7;
-
   padding: 18px;
-
-  min-width: 600px;
+  margin-left: 0px;
 }
 
 .ul2 {
-  min-width: 600px;
+  float: left;
+  min-width: 80%;
   border: 0px;
   padding: 10px;
+}
+
+.listFloat {
+  float: left;
 }
