@@ -1,0 +1,18 @@
+.repoBox {
+  font-family: 'readingfont';
+  position: absolute;
+  top: 0px;
+  color: #c5c6c7;
+
+  padding: 18px;
+
+  min-width: 600px;
+}
+
+.ul2 {
+  border-radius: 9px;
+  min-width: 600px;
+  border: 0px;
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 10px;
+}
