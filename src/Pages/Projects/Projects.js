@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Projects/Projects.css'
 import { motion } from 'framer-motion'
-import ProjectsTable from '../../Components/ProjectsTable/ProjectsTable'
+import ApiData from '../../Components/ApiData/ApiData'
 
 const Projects = () => {
   return (
@@ -12,7 +12,9 @@ const Projects = () => {
         initial={{ opacity: 0 }}
       >
         <h1 className="nameTitle">Projects</h1>
-        <ProjectsTable />
+        <div className="projectsTable">
+          <ApiData />
+        </div>
       </motion.div>
 
       <div className="footerNote">
