@@ -20,3 +20,8 @@
 h1 {
   font-size: 90px;
 }
+
+.projectsTable {
+  margin-left: 40%;
+  border: none;
+}
