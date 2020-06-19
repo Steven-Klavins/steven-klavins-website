@@ -1,0 +1,11 @@
+.repBox {
+  width: 300px;
+
+  font-size: 24px;
+}
+
+.pn {
+  font-size: 24px;
+  display: block;
+  padding-left: 24px;
+}
