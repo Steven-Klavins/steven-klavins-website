@@ -12,6 +12,7 @@ const Projects = () => {
         initial={{ opacity: 0 }}
       >
         <h1 className="nameTitle">Projects</h1>
+        <h2>GitHub Repos</h2>
         <div className="projectsTable">
           <ApiData />
         </div>
