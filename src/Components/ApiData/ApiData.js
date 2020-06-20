@@ -29,6 +29,7 @@ function ApiData() {
                 name={repos.name}
                 description={repos.description}
                 update={repos.updated_at}
+                language={repos.language}
               />
             </li>
           ))}
