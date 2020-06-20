@@ -6,7 +6,7 @@
   font-size: 24px;
   margin-bottom: 30px;
   display: inline-block;
-  height: 180px;
+  height: 228px;
   margin-right: 30px;
   padding-top: 30px;
 }
@@ -15,4 +15,26 @@
   font-size: 24px;
   display: block;
   padding-left: 24px;
+  margin-bottom: 6px;
+}
+
+.repoTitle {
+  color: #66fcf1;
+  font-size: 30px;
+  display: block;
+  padding-left: 24px;
+}
+
+.gitHubIcon {
+  height: 46px;
+  float: left;
+  display: block;
+  position: absolute;
+  margin-left: 132px;
+  margin-top: 66px;
+}
+
+.ghLink {
+  margin-left: 162px;
+  margin-top: 66px;
 }
