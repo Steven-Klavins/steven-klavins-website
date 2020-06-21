@@ -1,19 +1,20 @@
 .formBox {
-  margin-left: 45%;
+  margin-left: 43%;
   position: absolute;
   top: 600px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 input {
-  min-width: 300px;
+  min-width: 450px;
   margin-left: 24px;
   display: block;
 }
 
 textarea {
   margin-left: 24px;
-  min-width: 302px;
+  min-width: 453px;
   min-height: 150px;
 }
 label {
@@ -25,4 +26,11 @@ label {
 
 button {
   margin-left: 24px;
+}
+
+.message {
+  color: #66fcf1;
+  bottom: 6px;
+  display: inline-block;
+  margin-left: 12px;
 }
