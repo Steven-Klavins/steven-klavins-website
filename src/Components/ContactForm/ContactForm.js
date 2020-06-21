@@ -2,6 +2,7 @@ import React from 'react'
 import '../ContactForm/ContactForm.css'
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
+import Button from 'react-bootstrap/Button'
 import axios from 'axios'
 
 class ContactForm extends React.Component {
@@ -15,12 +16,21 @@ class ContactForm extends React.Component {
       emailSent: null,
     }
   }
+
+  handleChange = (event) => {
+    const target = event.target
+    const value = target.type === 'checkbox' ? target.checked : target.value
+    const name = target.name
+    this.setState({
+      [name]: value,
+    })
+  }
   render() {
     return (
       <div className="formBox">
-        <Form>
+        <Form onSubmit={this.handleSubmit}>
           <Form.Group>
-            <Form.Label htmlFor="full-name">Full Name</Form.Label>
+            <Form.Label htmlFor="full-name">Name</Form.Label>
             <FormControl
               id="full-name"
               name="name"
@@ -42,7 +52,7 @@ class ContactForm extends React.Component {
           </Form.Group>
 
           <Form.Group>
-            <Form.Label htmlFor="message">Full Name</Form.Label>
+            <Form.Label htmlFor="message">Message</Form.Label>
             <FormControl
               id="message"
               name="message"
@@ -51,6 +61,20 @@ class ContactForm extends React.Component {
               onChange={this.handleChange}
             />
           </Form.Group>
+          <Button
+            className="d-inline-block"
+            variant="primary"
+            type="submit"
+            disabled={this.state.disabled}
+          >
+            Send
+          </Button>
+
+          {this.state.emailSent === true && (
+            <p className="message">Message sent sucessfully!</p>
+          )}
+
+          {this.state.emailSent === false && <p className="message">Error</p>}
         </Form>
       </div>
     )
