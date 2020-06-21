@@ -22,3 +22,7 @@ label {
   font-size: 30px;
   padding-left: 24px;
 }
+
+button {
+  margin-left: 24px;
+}
