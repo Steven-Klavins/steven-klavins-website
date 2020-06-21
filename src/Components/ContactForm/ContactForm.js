@@ -25,6 +25,14 @@ class ContactForm extends React.Component {
       [name]: value,
     })
   }
+
+  handleSubmit = (event) => {
+    event.preventDefault()
+
+    this.setState({
+      disabled: true,
+    })
+  }
   render() {
     return (
       <div className="formBox">
@@ -71,10 +79,14 @@ class ContactForm extends React.Component {
           </Button>
 
           {this.state.emailSent === true && (
-            <p className="message">Message sent sucessfully!</p>
+            <span className="message">Message sent sucessfully!</span>
           )}
 
-          {this.state.emailSent === false && <p className="message">Error</p>}
+          {this.state.emailSent === false && (
+            <span className="message">
+              Sorry an error occured sending your message
+            </span>
+          )}
         </Form>
       </div>
     )
