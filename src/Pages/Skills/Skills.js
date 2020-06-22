@@ -7,6 +7,7 @@ import javaLogo from '../../../src/images/java-logo.png'
 import javascriptLogo from '../../../src/images/javascript-logo.png'
 import pythonLogo from '../../../src/images/python-logo.png'
 import reactLogo from './../../images/react-logo.png'
+import nodeLogo from './../../images/node-logo.png'
 
 const Skills = () => {
   return (
@@ -39,7 +40,7 @@ const Skills = () => {
             <Languages image={reactLogo} name="React"></Languages>
           </div>
           <div>
-            <Languages image={javascriptLogo} name="Nodejs"></Languages>
+            <Languages image={nodeLogo} name="Nodejs"></Languages>
           </div>
           <div>
             <Languages image={rubyLogo} name="Ruby On Rails"></Languages>
