@@ -8,6 +8,12 @@ import javascriptLogo from '../../../src/images/javascript-logo.png'
 import pythonLogo from '../../../src/images/python-logo.png'
 import reactLogo from './../../images/react-logo.png'
 import nodeLogo from './../../images/node-logo.png'
+import railsLogo from './../../images/rails-logo.png'
+import rspecLogo from './../../images/rspec-logo.png'
+import vsCodeLogo from './../../images/vscode-logo.png'
+import jasmineLogo from './../../images/jasmine-logo.png'
+import slackLogo from './../../images/slack-logo.png'
+import miroLogo from './../../images/miro-logo.png'
 
 const Skills = () => {
   return (
@@ -18,7 +24,7 @@ const Skills = () => {
         initial={{ opacity: 0 }}
       >
         <h1 className="nameTitle">Skills</h1>
-        <h2>Languages</h2>
+        <h2>Languages, Tools & Frameworks</h2>
         <div className="languagesblock">
           <div>
             <Languages image={javaLogo} name="Java"></Languages>
@@ -32,9 +38,14 @@ const Skills = () => {
           <div>
             <Languages image={pythonLogo} name="Python"></Languages>
           </div>
+          <div>
+            <Languages image={jasmineLogo} name="Jasmine"></Languages>
+          </div>
+          <div>
+            <Languages image={miroLogo} name="Miro"></Languages>
+          </div>
         </div>
 
-        <h2 className="frameTitle">Frameworks</h2>
         <div className="frameworksblock">
           <div>
             <Languages image={reactLogo} name="React"></Languages>
@@ -43,15 +54,24 @@ const Skills = () => {
             <Languages image={nodeLogo} name="Nodejs"></Languages>
           </div>
           <div>
-            <Languages image={rubyLogo} name="Ruby On Rails"></Languages>
+            <Languages image={railsLogo} name="Ruby On Rails"></Languages>
           </div>
           <div>
-            <Languages image={pythonLogo} name="Python"></Languages>
+            <Languages image={rspecLogo} name="RSpec"></Languages>
+          </div>
+          <div>
+            <Languages image={vsCodeLogo} name="VS Code"></Languages>
+          </div>
+          <div>
+            <Languages image={slackLogo} name="Slack"></Languages>
           </div>
         </div>
       </motion.div>
       <div className="footerNote">
         Built and designed by Steven Klavins 2020
+      </div>
+      <div className="skillTextBox">
+        <p>I have a number of skills</p>
       </div>
     </div>
   )
