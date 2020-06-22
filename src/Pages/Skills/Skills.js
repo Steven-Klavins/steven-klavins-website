@@ -14,6 +14,8 @@ import vsCodeLogo from './../../images/vscode-logo.png'
 import jasmineLogo from './../../images/jasmine-logo.png'
 import slackLogo from './../../images/slack-logo.png'
 import miroLogo from './../../images/miro-logo.png'
+import postgresqlLogo from '../../images/postgresql-logo.png'
+import mongoLogo from '../../images/mongodb-logo.png'
 
 const Skills = () => {
   return (
@@ -42,6 +44,9 @@ const Skills = () => {
             <Languages image={jasmineLogo} name="Jasmine"></Languages>
           </div>
           <div>
+            <Languages image={mongoLogo} name="Mongo DB"></Languages>
+          </div>
+          <div>
             <Languages image={miroLogo} name="Miro"></Languages>
           </div>
         </div>
@@ -61,6 +66,9 @@ const Skills = () => {
           </div>
           <div>
             <Languages image={vsCodeLogo} name="VS Code"></Languages>
+          </div>
+          <div>
+            <Languages image={postgresqlLogo} name="PostgreSQL"></Languages>
           </div>
           <div>
             <Languages image={slackLogo} name="Slack"></Languages>
