@@ -35,3 +35,14 @@ h2 {
   top: 300px;
   margin-left: 240px;
 }
+
+.frameworksblock {
+  float: left;
+  position: absolute;
+  top: 300px;
+  margin-left: 640px;
+}
+
+.frameTitle {
+  margin-left: 600px;
+}
