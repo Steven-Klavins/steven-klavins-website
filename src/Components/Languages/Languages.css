@@ -7,7 +7,12 @@
 }
 
 .fontplace {
-  margin-left: 0px;
+  margin-left: 6px;
   display: inline-block;
   vertical-align: middle;
+  font-size: 18px;
+}
+
+.skillTextBox {
+  margin-left: 540px;
 }
