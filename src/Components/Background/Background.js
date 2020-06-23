@@ -1,9 +1,11 @@
 import React from 'react'
 import Particles from 'react-particles-js'
+import '../Background/Background.css'
 
 const background = () => {
   return (
     <Particles
+      className="minbg"
       params={{
         particles: {
           line_linked: {
