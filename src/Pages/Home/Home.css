@@ -34,13 +34,14 @@ p {
   font-family: 'readingfont';
   position: absolute;
   top: 270px;
-  margin-left: 222px;
+  margin-left: 208px;
   color: #c5c6c7;
   margin-right: 180px;
   min-width: 630px;
   max-width: 990px;
   background-color: rgb(0, 0, 0, 0.4);
   padding: 18px;
+  padding-left: 32px;
   border-radius: 9px;
   font-size: 33px;
   line-height: 45px;
