@@ -1,5 +1,11 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  useLocation,
+} from 'react-router-dom'
+import ReactDOM from 'react-dom'
 import { AnimatePresence } from 'framer-motion'
 import NavBar from './Components/NavBar/NavBar'
 import Home from './Pages/Home/Home'
@@ -15,23 +21,13 @@ export default function App() {
       <Router>
         <div>
           <NavBar />
-          <AnimatePresence>
+          <AnimatePresence onExitComplete>
             <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route exact path="/projects">
-                <Projects />
-              </Route>
-              <Route exact path="/skills">
-                <Skills />
-              </Route>
-              <Route exact path="/contact">
-                <Contact />
-              </Route>
-              <Route exact path="/about">
-                <About />
-              </Route>
+              <Route exact path="/" component={Home}></Route>
+              <Route exact path="/projects" component={Projects}></Route>
+              <Route exact path="/skills" component={Skills}></Route>
+              <Route exact path="/contact" component={Contact}></Route>
+              <Route exact path="/about" component={About}></Route>
             </Switch>
           </AnimatePresence>
         </div>
@@ -39,3 +35,5 @@ export default function App() {
     </div>
   )
 }
+const rootElement = document.getElementById('root')
+ReactDOM.render(<App />, rootElement)
