@@ -8,7 +8,7 @@ export class Repo extends React.Component {
       <div className="repBox">
         <span className="repoTitle">{this.props.name}</span>
         <div className="gitHubIcon">
-          <img className="gitHubIcon" src={gitHubIcon}></img>
+          <img className="gitHubIcon" src={gitHubIcon} alt="GitHub Icon"></img>
           <a className="ghLink" href={this.props.link} target="_blank">
             Link
           </a>
