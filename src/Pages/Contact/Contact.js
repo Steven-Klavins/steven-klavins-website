@@ -2,7 +2,6 @@ import React from 'react'
 import '../Contact/Contact.css'
 import { motion } from 'framer-motion'
 import { AnimatePresence } from 'framer-motion'
-import ContactForm from '../../Components/ContactForm/ContactForm'
 
 const Contact = () => {
   return (
@@ -15,7 +14,7 @@ const Contact = () => {
           exit={{ opacity: 0 }}
         >
           <h1 className="nameTitle">Contact</h1>
-          <ContactForm />
+          {/*import ContactForm from '../../Components/ContactForm/ContactForm' <ContactForm />*/}
         </motion.div>
       </AnimatePresence>
       <div className="footerNote">
