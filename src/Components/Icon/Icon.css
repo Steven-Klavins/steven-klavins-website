@@ -16,9 +16,9 @@
 }
 
 .logobox {
-  position: absolute;
+  position: fixed;
   top: 396px;
-  bottom: 15px;
+  margin-bottom: 15px;
   padding-left: 15px;
   color: #45a29e;
   font-size: 18px;
