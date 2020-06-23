@@ -20,7 +20,7 @@ import mongoLogo from '../../images/mongodb-logo.png'
 
 const Skills = () => {
   return (
-    <div>
+    <div className="fixed">
       <AnimatePresence onExitComplete>
         <motion.div
           key="skills"
