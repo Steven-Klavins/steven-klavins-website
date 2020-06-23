@@ -4,15 +4,10 @@
 }
 
 .footerNote {
-  position: absolute;
-  bottom: 18px;
-  margin-left: 43%;
-  min-width: 450px;
   color: #45a29e;
-  font-size: 18px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  position: absolute;
+  top: 1110px;
+  margin-left: 45%;
 }
 
 .nameTitle {
@@ -32,7 +27,6 @@ h2 {
   top: 140px;
   margin-left: 240px;
   color: #c5c6c7;
-  text-align: center;
   font-size: 60px;
 }
 
