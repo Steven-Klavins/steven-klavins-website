@@ -2,21 +2,25 @@ import React from 'react'
 import '../Projects/Projects.css'
 import { motion } from 'framer-motion'
 import ApiData from '../../Components/ApiData/ApiData'
+import { AnimatePresence } from 'framer-motion'
 
 const Projects = () => {
   return (
     <div>
-      <motion.div
-        exit={{ opasity: 0 }}
-        animate={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-      >
-        <h1 className="nameTitle">Projects</h1>
-        <h2>GitHub Repos</h2>
-        <div className="projectsTable">
-          <ApiData />
-        </div>
-      </motion.div>
+      <AnimatePresence onExitComplete>
+        <motion.div
+          key="projects"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
+          <h1 className="nameTitle">Projects</h1>
+          <h2>GitHub Repos</h2>
+          <div className="projectsTable">
+            <ApiData />
+          </div>
+        </motion.div>
+      </AnimatePresence>
 
       <div className="footerNote">
         Built and designed by Steven Klavins 2020
