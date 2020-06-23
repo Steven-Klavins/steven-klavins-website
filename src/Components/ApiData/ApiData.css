@@ -7,10 +7,11 @@
 }
 
 .ul2 {
-  float: left;
-  min-width: 80%;
+  width: 100%;
+  min-width: 1400px;
   border: 0px;
   padding: 10px;
+  position: absolute;
 }
 
 .listFloat {
