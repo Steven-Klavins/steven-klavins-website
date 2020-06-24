@@ -39,6 +39,7 @@ h2 {
   position: absolute;
   top: 300px;
   margin-left: 480px;
+  min-width: 300px;
 }
 
 .skillTextBox {
