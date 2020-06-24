@@ -15,3 +15,31 @@
 h1 {
   font-size: 90px;
 }
+
+.mailLogo {
+  margin-left: 192px;
+  max-height: 240px;
+  position: absolute;
+  top: 480px;
+}
+
+.bounce {
+  width: 6rem;
+  height: 6rem;
+  justify-content: space-around;
+  display: flex;
+}
+
+.circle {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #66fcf1;
+  border-radius: 0.75rem;
+}
+
+.animatePosition {
+  position: absolute;
+  top: 600px;
+  margin-left: 450px;
+}
