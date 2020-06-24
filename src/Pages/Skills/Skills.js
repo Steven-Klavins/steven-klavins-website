@@ -83,7 +83,7 @@ const Skills = () => {
         Built and designed by Steven Klavins 2020
       </div>
       <div className="skillTextBox">
-        <p>
+        <p className="skillTextBox">
           I have worked with all kinds of tech in my time and I'm always up to
           the task of learning something new. As of recent, the majority of my
           work has been centered around React and vanilla Javascript. However, I
