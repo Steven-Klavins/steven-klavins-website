@@ -17,8 +17,8 @@ const Projects = () => {
           <h1 className="nameTitle">Projects</h1>
           <h2>GitHub Repos</h2>
           <p>
-            Here you'll find the repos of my most notable projects, feel free to
-            take a look around!
+            Here you'll find the repos of my most notable projects, please feel
+            free to take a look!
           </p>
           <div className="projectsTable">
             <ApiData />
