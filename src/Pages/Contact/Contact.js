@@ -3,6 +3,7 @@ import '../Contact/Contact.css'
 import { motion } from 'framer-motion'
 import { AnimatePresence } from 'framer-motion'
 import gmailLogo from '../../images/gmail-logo.png'
+import messageLogo from '../../images/messagebubble-logo.png'
 
 const container = {
   start: {
@@ -43,11 +44,24 @@ const Contact = () => {
           exit={{ opacity: 0 }}
         >
           <h1 className="nameTitle">Contact</h1>
+          <h2>Please feel free to message me!</h2>
           <p>
-            stevenklavins@gmail94.com <br></br>
-            The best way to contact me is via email or any of my social
+            <span className="email">stevenklavins94@gmail.com</span>
+            <br></br>
+            The best way to contact me is via email or any of my social meadia
+            links on the left, I will reply as promptly as possible.
           </p>
           <img className="mailLogo" src={gmailLogo} alt="Mail Logo"></img>
+          <div className="message">
+            <span>Steve: </span>
+            <span>Lets talk!</span>
+          </div>
+
+          <img
+            className="messageLogo"
+            src={messageLogo}
+            alt="Message Bubble"
+          ></img>
           {/*import ContactForm from '../../Components/ContactForm/ContactForm' <ContactForm />*/}
           <div className="animatePosition">
             <motion.div
