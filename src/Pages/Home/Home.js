@@ -3,6 +3,16 @@ import '../Home/Home.css'
 import { motion } from 'framer-motion'
 import { AnimatePresence } from 'framer-motion'
 import queryString from 'query-string'
+import computerLogo from '../../images/computer-logo.png'
+
+const transition = {
+  color: {
+    duration: 0,
+    ease: 'easeOut',
+    repeatDelay: 0.6,
+    yoyo: Infinity,
+  },
+}
 
 class Home extends Component {
   render() {
@@ -21,7 +31,7 @@ class Home extends Component {
               <h1 className="nameTitle">Steven Klavins</h1>
               <div>
                 <h2>Welcome {name} </h2>
-                <p>
+                <p className="welcomDescription">
                   Thank you so much for visiting my website! I'm a full-stack
                   developer, Makers Academy graduate, and tech addict. I'm
                   London based however I'm an experienced remote worker and have
@@ -35,6 +45,24 @@ class Home extends Component {
                   Want to chat? Feel free to contact me on any of the listed
                   platforms!
                 </p>
+                <div className="welcomemsg">
+                  <span className="hl2">
+                    Hello and welcome <span className="hl">{name}</span>,
+                    <br></br>
+                    please feel free to take a look around! :){' '}
+                    <motion.span
+                      animate={{ color: ['#66fcf1', '#000000'] }}
+                      transition={transition}
+                    >
+                      |
+                    </motion.span>
+                  </span>
+                </div>
+                <img
+                  className="computer"
+                  src={computerLogo}
+                  alt="Computer Logo"
+                ></img>
               </div>
             </div>
           </motion.div>
