@@ -40,3 +40,8 @@ h2 {
   top: 300px;
   margin-left: 480px;
 }
+
+.skillTextBox {
+  margin-left: 360px;
+  min-width: 680px;
+}
