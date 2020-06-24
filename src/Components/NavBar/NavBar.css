@@ -47,7 +47,7 @@ li a:hover:not(.active) {
   position: absolute;
   top: 210px;
   height: 600px;
-  margin-left: 38%;
+  margin-left: 36%;
   align-items: center;
   opacity: 0.1;
 }
