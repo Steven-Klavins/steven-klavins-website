@@ -1,14 +1,12 @@
-.logo {
+.languagelogo {
   max-height: 90px;
-  color: #c5c6c7;
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 18px;
 }
 
-.fontplace {
+.languagelogofont {
+  color: #c5c6c7;
   margin-left: 6px;
-  display: inline-block;
-  vertical-align: middle;
   font-size: 18px;
 }
