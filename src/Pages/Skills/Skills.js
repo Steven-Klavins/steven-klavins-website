@@ -77,29 +77,27 @@ const Skills = () => {
               <Languages image={slackLogo} name="Slack"></Languages>
             </div>
           </div>
+          <div className="skilltextBox">
+            <p className="skilltextBox">
+              I have worked with all kinds of tech in my time and I'm always up
+              to the task of learning something new. As of recent, the majority
+              of my work has been centered around React and vanilla Javascript.
+              However, I also have experience working with Java, Python, Ruby,
+              and android development. In my spare time, I've been known to
+              tinker with microcontrollers and try my hand at game development.
+              I have ample experience working with Adobe software, 3D modeling
+              in Maya, and music production.<br></br>
+              <br></br>
+              To the left, you'll see just some of the technologies I have
+              worked with. I am an experienced tester and have the knowledge to
+              work with a hand full of different databases, frameworks, and
+              tools. I can follow TDD and BDD principles and have plenty of
+              experience working in Agile environments remotely and in-person
+              alike.
+            </p>
+          </div>
         </motion.div>
       </AnimatePresence>
-      <div className="footerNote">
-        Built and designed by Steven Klavins 2020
-      </div>
-      <div className="skillTextBox">
-        <p className="skillTextBox">
-          I have worked with all kinds of tech in my time and I'm always up to
-          the task of learning something new. As of recent, the majority of my
-          work has been centered around React and vanilla Javascript. However, I
-          also have experience working with Java, Python, Ruby, and android
-          development. In my spare time, I've been known to tinker with
-          microcontrollers and try my hand at game development. I have ample
-          experience working with Adobe software, 3D modeling in Maya, and music
-          production.<br></br>
-          <br></br>
-          To the left, you'll see just some of the technologies I have worked
-          with. I am an experienced tester and have the knowledge to work with a
-          hand full of different databases, frameworks, and tools. I can follow
-          TDD and BDD principles and have plenty of experience working in Agile
-          environments remotely and in-person alike.
-        </p>
-      </div>
     </div>
   )
 }
