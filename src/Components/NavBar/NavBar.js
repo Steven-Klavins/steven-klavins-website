@@ -46,7 +46,7 @@ const navbar = () => {
               link={'https://github.com/Steven-Klavins'}
               image={githublogo}
               description={'Github Logo'}
-              title={'Github'}
+              title={'GitHub'}
             ></Icon>
           </div>
           <div>
