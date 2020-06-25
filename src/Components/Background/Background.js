@@ -5,7 +5,7 @@ import '../Background/Background.css'
 const background = () => {
   return (
     <Particles
-      className="minbg"
+      className="backgroundSettings"
       params={{
         particles: {
           line_linked: {
