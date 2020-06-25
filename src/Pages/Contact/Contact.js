@@ -48,8 +48,10 @@ const Contact = () => {
           <p className="contactbox">
             <span className="email">stevenklavins94@gmail.com</span>
             <br></br>
-            The best way to contact me is via email or any of my social meadia
-            links on the left, I will reply as promptly as possible.
+            The best way to contact me is via email, I will reply as promptly as
+            possible. Alternatively, you can contact me on any of the social
+            media platforms listed to the left, click on the links provided and
+            you will be directed to the relevant profiles.
           </p>
           <img className="mailLogo" src={gmailLogo} alt="Mail Logo"></img>
           <div className="message">
