@@ -1,0 +1,75 @@
+a {
+  color: #45a29e;
+}
+
+* {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'main';
+  src: url('../src/fonts/Antapani-ExtraBold.otf');
+}
+
+body {
+  font-family: 'main';
+  margin: 0px;
+  background: #1f2833;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+li a {
+  display: block;
+  color: #45a29e;
+  padding: 12px 24px;
+  font-size: 24px;
+}
+
+li a.active {
+  color: #66fcf1;
+}
+
+li a:hover:not(.active) {
+  color: #66fcf1;
+}
+
+.nameTitle {
+  position: absolute;
+  top: 0px;
+  margin-left: 240px;
+  color: #66fcf1;
+  font-size: 90px;
+  min-width: 660px;
+}
+
+h2 {
+  position: absolute;
+  top: 140px;
+  margin-left: 240px;
+  color: #c5c6c7;
+  font-size: 60px;
+  min-width: 1000px;
+}
+
+p {
+  font-family: 'readingfont';
+  position: absolute;
+  top: 270px;
+  margin-left: 208px;
+  color: #c5c6c7;
+  margin-right: 180px;
+  min-width: 630px;
+  max-width: 990px;
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 18px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 9px;
+  font-size: 33px;
+  line-height: 45px;
+}
