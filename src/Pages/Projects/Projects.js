@@ -16,7 +16,7 @@ const Projects = () => {
         >
           <h1 className="nameTitle">Projects</h1>
           <h2>GitHub Repos</h2>
-          <p className="subheading">
+          <p className="projectssubheading">
             Here you'll find the repos of my most notable projects, please feel
             free to take a look!
           </p>
@@ -25,10 +25,6 @@ const Projects = () => {
           </div>
         </motion.div>
       </AnimatePresence>
-
-      <div className="footerNote">
-        Built and designed by Steven Klavins 2020
-      </div>
     </div>
   )
 }
