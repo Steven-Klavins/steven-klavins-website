@@ -14,7 +14,7 @@ import mainlogo from '../../images/main-logo.png'
 const navbar = () => {
   return (
     <div>
-      <div>
+      <div className="navcontainer">
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -32,7 +32,7 @@ const navbar = () => {
             <Link to="/about">About</Link>
           </li>
         </ul>
-        <div className="logobox">
+        <div className="linkiconbox">
           <div>
             <Icon
               link={'https://github.com/Steven-Klavins/CV'}
@@ -91,6 +91,9 @@ const navbar = () => {
       </div>
       <div>
         <img className="mlogo" src={mainlogo} alt="logo" />
+      </div>
+      <div className="footerNote">
+        Built and designed by Steven Klavins 2020
       </div>
     </div>
   )
