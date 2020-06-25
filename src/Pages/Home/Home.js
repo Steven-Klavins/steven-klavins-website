@@ -46,9 +46,9 @@ class Home extends Component {
                   platforms!
                 </p>
                 <div className="welcomemsg">
-                  <span className="hl2">
-                    Hello and welcome <span className="hl">{name}</span>,
-                    <br></br>
+                  <span className="computertext2">
+                    Hello and welcome{' '}
+                    <span className="computertext1">{name}</span>,<br></br>
                     please feel free to take a look around! :){' '}
                     <motion.span
                       animate={{ color: ['#66fcf1', '#000000'] }}
@@ -67,10 +67,6 @@ class Home extends Component {
             </div>
           </motion.div>
         </AnimatePresence>
-
-        <div className="footerNote">
-          Built and designed by Steven Klavins 2020
-        </div>
       </div>
     )
   }
