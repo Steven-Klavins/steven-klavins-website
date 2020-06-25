@@ -15,9 +15,9 @@ const Projects = () => {
           exit={{ opacity: 0 }}
         >
           <h1 className="nameTitle">Projects</h1>
-          <h2>GitHub Repos</h2>
+          <h2>GitHub Repositories</h2>
           <p className="projectssubheading">
-            Here you'll find the repos of my most notable projects, please feel
+            Here you'll find the repo's of my most notable projects, please feel
             free to take a look!
           </p>
           <div className="projectsTable">
