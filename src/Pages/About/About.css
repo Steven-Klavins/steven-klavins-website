@@ -7,8 +7,9 @@
 }
 
 .aboutTextbox {
-  margin-left: 360px;
-  margin-top: 144px;
+  margin-left: 720px;
+  margin-top: 293px;
   position: absolute;
   top: 6px;
+  min-width: 800px;
 }
