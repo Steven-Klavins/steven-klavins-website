@@ -20,10 +20,10 @@ function ApiData() {
 
   return (
     <div>
-      <ul className="ul2">
-        <div className="repoBox">
+      <ul className="githubRepoContainer">
+        <div className="githubRepoStyling">
           {repos.map((repos) => (
-            <li className="listFloat" key={repos.id}>
+            <li className="githubRepolistFloat" key={repos.id}>
               <Repo
                 link={repos.html_url}
                 name={repos.name}
