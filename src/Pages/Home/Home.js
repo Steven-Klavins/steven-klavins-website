@@ -33,13 +33,41 @@ class Home extends Component {
                 <h2>Welcome {name} </h2>
                 <p className="welcomDescription">
                   Thank you so much for visiting my website! I'm a full-stack
-                  developer, Makers Academy graduate, and tech addict. I'm
-                  London based however I'm an experienced remote worker and have
-                  the flexibility to relocate/travel.<br></br>
-                  <br></br>I hold a BA in Digital Arts, perform in a band, and
-                  have a love of all things creative. I yearn to make the world
-                  a better place through innovative tech, to be frank, its what
-                  gets me out of bed in the morning.  
+                  developer,{' '}
+                  <a
+                    className="midtextlink"
+                    href="https://makers.tech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Makers academy
+                  </a>{' '}
+                  graduate, and tech addict. I'm London based however I'm an
+                  experienced remote worker and have the flexibility to
+                  relocate/travel if need be.
+                  <br></br>
+                  <br></br>I hold a BA in Digital Arts, perform in a{' '}
+                  <a
+                    className="midtextlink"
+                    href="https://www.facebook.com/outofcontextmusic/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    band
+                  </a>
+                  , and have a love of all things creative, you can find my
+                  showreel{' '}
+                  <a
+                    className="midtextlink"
+                    href="https://www.youtube.com/watch?v=oNoBRIztcew"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    here
+                  </a>
+                  . If your looking for someone with a yearning to make the
+                  world a better place through innovative tech I'm your guy! To
+                  be frank, its what gets me out of bed in the morning.  
                   <br />
                   <br />
                   Want to chat? Feel free to contact me on any of the listed
