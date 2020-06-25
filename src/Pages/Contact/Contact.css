@@ -2,7 +2,7 @@
   margin-left: 192px;
   max-height: 240px;
   position: absolute;
-  top: 480px;
+  top: 540px;
 }
 
 .bounce {
@@ -21,25 +21,25 @@
 }
 
 .contactbox {
-  min-width: 680px;
+  min-width: 930px;
 }
 
 .animatePosition {
   position: absolute;
-  top: 600px;
+  top: 660px;
   margin-left: 480px;
 }
 
 .messageLogo {
   width: 360px;
   position: absolute;
-  top: 480px;
+  top: 540px;
   margin-left: 480px;
 }
 
 .message {
   position: absolute;
-  top: 510px;
+  top: 570px;
   margin-left: 512px;
   color: #66fcf1;
   font-size: 30px;
