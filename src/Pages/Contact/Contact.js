@@ -45,7 +45,7 @@ const Contact = () => {
         >
           <h1 className="nameTitle">Contact</h1>
           <h2>Please feel free to message me!</h2>
-          <p>
+          <p className="contactbox">
             <span className="email">stevenklavins94@gmail.com</span>
             <br></br>
             The best way to contact me is via email or any of my social meadia
@@ -89,9 +89,6 @@ const Contact = () => {
           </div>
         </motion.div>
       </AnimatePresence>
-      <div className="footerNote">
-        Built and designed by Steven Klavins 2020
-      </div>
     </div>
   )
 }
