@@ -1,21 +1,3 @@
-.footerNote {
-  color: #45a29e;
-  position: absolute;
-  top: 1110px;
-  margin-left: 45%;
-}
-
-.nameTitle {
-  position: absolute;
-  top: 0px;
-  margin-left: 240px;
-  color: #66fcf1;
-}
-
-h1 {
-  font-size: 90px;
-}
-
 .mailLogo {
   margin-left: 192px;
   max-height: 240px;
@@ -36,6 +18,10 @@ h1 {
   height: 1.5rem;
   background-color: #66fcf1;
   border-radius: 0.75rem;
+}
+
+.contactbox {
+  min-width: 680px;
 }
 
 .animatePosition {
