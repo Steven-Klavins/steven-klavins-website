@@ -1,31 +1,15 @@
-.logos {
+.navIcons {
   width: 54px;
   display: block;
-  margin: 0px auto 0px;
   text-align: center;
   color: #45a29e;
   transition: transform 0.2s;
   padding-bottom: 9px;
 }
 
-.logos:hover {
+.navIcons:hover {
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   color: #66fcf1;
-}
-
-.logobox {
-  position: fixed;
-  top: 396px;
-  margin-bottom: 15px;
-  padding-left: 15px;
-  color: #45a29e;
-  font-size: 18px;
-  padding-left: 21px;
-  padding-bottom: 36px;
-}
-
-a {
-  color: #45a29e;
 }
