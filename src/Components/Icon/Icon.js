@@ -4,9 +4,14 @@ import '../Icon/Icon.css'
 export class Icon extends React.Component {
   render() {
     return (
-      <a className="logos" href={this.props.link} target="_blank">
+      <a
+        className="navIcons"
+        href={this.props.link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
-          className="logos"
+          className="navIcons"
           src={this.props.image}
           alt={this.props.description}
         />
