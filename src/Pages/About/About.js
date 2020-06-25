@@ -13,20 +13,21 @@ function About() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <h1 className="nameTitle">About</h1>
-          <h2>A bit about who I am</h2>
-          <div className="aboutTextbox">
-            <p className="aboutTextbox">
-              Thank you so much for taking the time out of your day to find out
-              a little more about me. My name is Steven (most call me Steve) and
-              I'm presently based in London (UK). I'm 26 years old, a lover of
-              everything tech, music, and art. <br></br>
-            </p>
+          <div>
+            <h1 className="nameTitle">About</h1>
+            <h2>A bit about who I am</h2>
+            <div className="aboutTextbox">
+              <p className="aboutTextbox">
+                Thank you so much for taking the time out of your day to find
+                out a little more about me. My name is Steven (most call me
+                Steve) and I'm presently based in London (UK). I'm 26 years old,
+                a lover of everything tech, music, and art. <br></br>
+              </p>
+            </div>
+            <img className="aboutimg" src={aboutPhoto} alt="About"></img>
           </div>
-          <img className="aboutimg" src={aboutPhoto} alt="About"></img>
         </motion.div>
       </AnimatePresence>
-      <div className="footerNote"></div>
     </div>
   )
 }
