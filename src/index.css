@@ -73,3 +73,15 @@ p {
   font-size: 33px;
   line-height: 45px;
 }
+
+.midtextlink {
+  color: #45a29e;
+}
+
+.midtextlink.active {
+  color: #66fcf1;
+}
+
+.midtextlink:hover:not(.active) {
+  color: #66fcf1;
+}
