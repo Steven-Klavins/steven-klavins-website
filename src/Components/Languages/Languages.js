@@ -5,9 +5,9 @@ export class Languages extends React.Component {
   render() {
     return (
       <div>
-        <div className="logo">
-          <img className="logo" src={this.props.image} alt="logo" />
-          <span className="fontplace">{this.props.name}</span>
+        <div className="languagelogo">
+          <img className="languagelogo" src={this.props.image} alt="logo" />
+          <span className="languagelogofont">{this.props.name}</span>
         </div>
       </div>
     )
