@@ -1,6 +1,6 @@
 # Steven Klavins Website
 
-**[Visit the site](https://steven-klavins.netlify.app/about)**
+**[Visit the site](https://steven-klavins.netlify.app/)**
 
 **About**
 
