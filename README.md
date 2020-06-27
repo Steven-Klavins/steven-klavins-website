@@ -23,6 +23,8 @@ On the projects page, I used a combination of GitHub's API and Axios to pull in 
 
 **React**
 
+I chose the React library for its ease of use and the simple fact I really enjoy working with it. The React render DOM renders the navigation bar out once and simply switches out the page components on a route change.
+
 **Javascript**
 
 **CSS/HTML (JSX)**
