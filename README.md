@@ -37,6 +37,8 @@ My website is currently deployed on netlify however it is likely I will set up m
 
 **Navigation** 
 
+The navigation of the site is handled by the React Router which will switch components if the route changes. When hovering over links they highlight to help direct the user.
+
 ### Future changes
 
-At present my website is not optimized for mobile use, however this is something I intend to do in the near future.
+Currently, my website is not optimized for mobile devices, however, this is something I intend to do soon. In addition to this, I would also like to add a contact form, the component for a contact form is present but not in use. I deemed it low priority for now, for some reason or other the API was not excepting my authentication token.
