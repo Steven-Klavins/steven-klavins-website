@@ -13,14 +13,6 @@ This repo holds the code for my personal portfolio website, it is built with a c
 
 In this project I used Javascript, React, NodeJS, Particles-JS, JSX, CSS, Axios, the Github API and Framer Motion
 
-### Animation
-
-The majority of animation on the site was achieved with Framer Motion. This includes component transitions, the blinking cursor animation on the welcome page, and the message animation on the contact page. The animated background was created with particle JS and CSS.
-
-### API
-
-On the projects page, I used a combination of GitHub's API and Axios to pull in information about my repositories. I originally intended to use GitHub's GraphQL API however this added an unnecessary layer of complexity to the project. To avoid the hassle of dealing with authentication and environment variables I decided to use GitHub's API V3.
-
 **React**
 
 I chose the React library for its ease of use and the simple fact I really enjoy working with it. The React render DOM renders the navigation bar out once and simply switches out the page components on a route change.
@@ -30,6 +22,14 @@ I chose the React library for its ease of use and the simple fact I really enjoy
 **CSS/HTML (JSX)**
 
 As far as styling goes most of my components are rendered with CSS and the content despite looking like standard HTML is JSX. JSX is an XML/HTML-like syntax used so that XML/HTML-like code can co-exist with JavaScript and React code.
+
+**Framer Motion**
+
+The majority of animation on the site was achieved with Framer Motion. This includes component transitions, the blinking cursor animation on the welcome page, and the message animation on the contact page. The animated background was created with particle JS and CSS.
+
+### API
+
+On the projects page, I used a combination of GitHub's API and Axios to pull in information about my repositories. I originally intended to use GitHub's GraphQL API however this added an unnecessary layer of complexity to the project. To avoid the hassle of dealing with authentication and environment variables I decided to use GitHub's API V3.
 
 **Deployment** 
 
