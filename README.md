@@ -17,7 +17,11 @@ At present my website is not optimized for mobile use, however this is something
 
 **Animation**
 
+The majority of animation on the site was achieved with Framer Motion. This includes component transitions, the blinking cursor animation on the welcome page, and the message animation on the contact page. The animated background was created with particle JS and CSS.
+
 **API**
+
+On the projects page, I used a combination of GitHub's API and Axios to pull in information about my repositories.
 
 **Tech Stack**
 
