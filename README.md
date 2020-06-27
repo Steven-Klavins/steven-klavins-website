@@ -8,10 +8,6 @@ This repo holds the code for my personal portfolio website, it is built with a c
 
 I have yet to deploy this site however when its up a link will be provided.
 
-### Future changes
-
-At present my website is not optimized for mobile use, however this is something I intend to do in the near future.
-
 ![](/README_Screenshot.png)
 
 
@@ -34,3 +30,7 @@ On the projects page, I used a combination of GitHub's API and Axios to pull in 
 **Deployment** 
 
 **Navigation** 
+
+### Future changes
+
+At present my website is not optimized for mobile use, however this is something I intend to do in the near future.
