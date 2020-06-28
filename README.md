@@ -19,6 +19,8 @@ I chose the React library for its ease of use and the simple fact I really enjoy
 
 **Javascript**
 
+I used vanilla javascript throughout the project for small tasks such as string interpolation and looping through API data.
+
 **CSS/HTML (JSX)**
 
 As far as styling goes most of my components are rendered with CSS and the content despite looking like standard HTML is JSX. JSX is an XML/HTML-like syntax used so that XML/HTML-like code can co-exist with JavaScript and React code.
