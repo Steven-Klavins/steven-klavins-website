@@ -87,7 +87,7 @@ const navbar = () => {
         </div>
       </div>
       <div>
-        <Background />
+        
       </div>
       <div>
         <img className="mlogo" src={mainlogo} alt="logo" />
